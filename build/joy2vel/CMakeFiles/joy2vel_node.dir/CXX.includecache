@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/human/Desktop/catkin_ws/src/joy2vel/src/joy2vel_node.cpp
+ros/ros.h
+-
+geometry_msgs/Twist.h
+-
+p2os_msgs/MotorState.h
+-
+sensor_msgs/Joy.h
+-
+

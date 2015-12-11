@@ -1,0 +1,8 @@
+prefix=/home/human/Desktop/catkin_ws/install
+
+Name: ComputerVision
+Description: Description of ComputerVision
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/human/Desktop/catkin_ws/install/lib 
+Requires: 

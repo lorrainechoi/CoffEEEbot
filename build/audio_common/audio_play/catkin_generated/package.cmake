@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "audio_play")
+set(audio_play_MAINTAINER "Austin Hendrix <namniart@gmail.com>")
+set(audio_play_DEPRECATED "")
+set(audio_play_VERSION "0.2.7")
+set(audio_play_BUILD_DEPENDS "roscpp" "audio_common_msgs" "libgstreamer1.0-dev" "libgstreamer-plugins-base1.0-dev")
+set(audio_play_RUN_DEPENDS "roscpp" "audio_common_msgs" "libgstreamer1.0-0" "libgstreamer-plugins-base1.0-0" "gstreamer1.0-plugins-ugly" "gstreamer1.0-plugins-good")
+set(audio_play_BUILDTOOL_DEPENDS "catkin")

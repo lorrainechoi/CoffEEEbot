@@ -1,0 +1,8 @@
+prefix=/home/human/Desktop/catkin_ws/devel
+
+Name: joy2vel
+Description: Description of joy2vel
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/human/Desktop/catkin_ws/devel/lib 
+Requires: 

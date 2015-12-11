@@ -1,0 +1,8 @@
+prefix=/home/human/Desktop/catkin_ws/install
+
+Name: state_machine
+Description: Description of state_machine
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/human/Desktop/catkin_ws/install/lib 
+Requires: 

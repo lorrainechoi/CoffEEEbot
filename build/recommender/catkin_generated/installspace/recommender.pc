@@ -1,0 +1,8 @@
+prefix=/home/human/Desktop/catkin_ws/install
+
+Name: recommender
+Description: Description of recommender
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/human/Desktop/catkin_ws/install/lib 
+Requires: 

@@ -1,0 +1,43 @@
+#include "ros/ros.h"
+#include "std_msgs/String.h"
+
+#include <sstream>
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+struct coffee{
+    string type;
+    int stock;
+};
+int check_stock(coffee* coffEEEbot, int out_of_stock_array[]){
+    int num_out_of_stock=0;
+    for(int i=0;i<5;i++){
+        if (coffEEEbot[i].stock==0){
+            out_of_stock_array[i]=1;
+            num_out_of_stock++;
+        }
+        else
+            out_of_stock_array[i]=0;
+    }
+    return num_out_of_stock;
+}
+/*
+stock_code:
+2: In Stock
+1: Out of Stock
+*/
+int gen_stock_code(int out_of_stock_array[]){
+    int stock_code=0;
+    int temp[5]={1,1,1,1,1};
+    for(int i=0;i<5;i++){
+        if (out_of_stock_array[i]==0){
+            temp[i]=2;
+        }
+    }
+    stock_code=temp[0]*10000+temp[1]*1000+temp[2]*100+temp[3]*10+temp[4]*1;
+
+    return stock_code;
+}
+

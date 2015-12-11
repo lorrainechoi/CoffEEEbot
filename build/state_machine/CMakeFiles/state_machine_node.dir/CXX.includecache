@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/human/Desktop/catkin_ws/src/state_machine/src/FSM1.h
+
+/home/human/Desktop/catkin_ws/src/state_machine/src/state_machine_node.cpp
+ros/ros.h
+-
+std_msgs/String.h
+-
+std_msgs/Int32.h
+-
+iostream
+-
+string
+-
+sstream
+-
+state_machine_node.h
+/home/human/Desktop/catkin_ws/src/state_machine/src/state_machine_node.h
+FSM1.h
+/home/human/Desktop/catkin_ws/src/state_machine/src/FSM1.h
+
+/home/human/Desktop/catkin_ws/src/state_machine/src/state_machine_node.h
+ros/ros.h
+/home/human/Desktop/catkin_ws/src/state_machine/src/ros/ros.h
+std_msgs/String.h
+/home/human/Desktop/catkin_ws/src/state_machine/src/std_msgs/String.h
+std_msgs/Int32.h
+/home/human/Desktop/catkin_ws/src/state_machine/src/std_msgs/Int32.h
+sstream
+-
+iostream
+-
+string
+-
+

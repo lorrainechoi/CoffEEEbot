@@ -1,0 +1,8 @@
+prefix=/home/human/Desktop/catkin_ws/install
+
+Name: sound_play
+Description: Description of sound_play
+Version: 0.2.7
+Cflags: -I/home/human/Desktop/catkin_ws/install/include
+Libs: -L/home/human/Desktop/catkin_ws/install/lib 
+Requires: message_runtime actionlib_msgs

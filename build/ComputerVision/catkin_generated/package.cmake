@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "ComputerVision")
+set(ComputerVision_MAINTAINER "human <human@todo.todo>")
+set(ComputerVision_DEPRECATED "")
+set(ComputerVision_VERSION "0.0.0")
+set(ComputerVision_BUILD_DEPENDS )
+set(ComputerVision_RUN_DEPENDS )
+set(ComputerVision_BUILDTOOL_DEPENDS "catkin")
